@@ -9,6 +9,12 @@ spring:
       ddl-auto: update
     show-sql: true
 
+# 🔥 SWAGGER FIX (IMPORTANT)
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    config-url: /startup/v3/api-docs
+
 eureka:
   instance:
     hostname: localhost
