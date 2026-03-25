@@ -1,9 +1,16 @@
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/message_db
+    url: jdbc:mysql://localhost:3306/messaging_db
     username: root
     password: 1234
 
   jpa:
     hibernate:
       ddl-auto: update
+    show-sql: true
+
+eureka:
+  instance:
+    hostname: localhost
+    prefer-ip-address: false
+    instance-id: messaging-service:8086
