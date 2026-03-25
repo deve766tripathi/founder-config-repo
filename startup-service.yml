@@ -9,14 +9,13 @@ spring:
       ddl-auto: update
     show-sql: true
 
-# ✅ FINAL SWAGGER CONFIG (LOCK THIS)
 springdoc:
   api-docs:
     path: /v3/api-docs
 
   swagger-ui:
     path: /swagger-ui.html
-    config-url: /v3/api-docs   # 🔥 IMPORTANT (NO /startup here)
+    disable-swagger-default-url: true   # 🔥 VERY IMPORTANT
 
 eureka:
   instance:
