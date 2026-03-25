@@ -7,3 +7,10 @@ spring:
   jpa:
     hibernate:
       ddl-auto: update
+    show-sql: true
+
+eureka:
+  instance:
+    hostname: localhost
+    prefer-ip-address: false
+    instance-id: startup-service:8082
