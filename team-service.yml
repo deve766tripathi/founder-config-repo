@@ -11,7 +11,7 @@ spring:
 
 springdoc:
   swagger-ui:
-    config-url: /teams/v3/api-docs
+    url: /teams/v3/api-docs
 
 eureka:
   instance:
