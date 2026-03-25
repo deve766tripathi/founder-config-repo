@@ -9,6 +9,10 @@ spring:
       ddl-auto: update
     show-sql: true
 
+springdoc:
+  swagger-ui:
+    config-url: /messages/v3/api-docs
+
 eureka:
   instance:
     hostname: localhost
