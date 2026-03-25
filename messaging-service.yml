@@ -11,7 +11,7 @@ spring:
 
 springdoc:
   swagger-ui:
-    config-url: /messages/v3/api-docs
+    url: /messages/v3/api-docs
 
 eureka:
   instance:
