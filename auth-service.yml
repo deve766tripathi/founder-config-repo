@@ -9,4 +9,8 @@ spring:
       ddl-auto: update
     show-sql: true
 
-message: Hello from Config Server
+eureka:
+  instance:
+    hostname: localhost
+    prefer-ip-address: false
+    instance-id: auth-service:8081
