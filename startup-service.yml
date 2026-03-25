@@ -13,7 +13,7 @@ spring:
 springdoc:
   swagger-ui:
     path: /swagger-ui.html
-    config-url: /startup/v3/api-docs
+    url: /startup/v3/api-docs
 
 eureka:
   instance:
